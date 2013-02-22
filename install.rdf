@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>bookmarkalltabs@aaronmt.com</em:id>
+        <em:type>2</em:type>
+        <em:name>Bookmark All Tabs</em:name>
+        <em:version>1.0</em:version>
+        <em:bootstrap>true</em:bootstrap>
+        <em:description>Bookmarks all available open tabs</em:description>
+        <em:creator>Aaron Train</em:creator>
+        <em:iconURL>data:image/png;base64,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</em:iconURL>
+
+        <!-- Mobile -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+                <em:minVersion>14.0</em:minVersion>
+                <em:maxVersion>22.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+    </Description>
+</RDF>
