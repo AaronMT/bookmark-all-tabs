@@ -13,12 +13,12 @@ function bookmarkAllTabs(aWindow) {
   tabs.forEach(function(tab){
     aWindow.sendMessageToJava({
       type: "Bookmark:Insert",
-      url: tab.window.document.location,
+      url: tab.window.document.location.href,
       title: tab.window.document.title
     });
   });
 
-  aWindow.NativeWindow.toast.show("Bookmarking All Tabs", "short");
+  aWindow.NativeWindow.toast.show("All Tabs Bookmarked", "long");
 }
 
 var gToastMenuId = null;
